@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head> 
+        <title>GAME OVER XD</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="styesheet"  href="style.css">
+        <script src="regras.js"></script>
+        <style> 
+        #imgGame{
+            margin-top: 20px;
+            background-color: rgb(62, 100, 62);
+        }
+        .img{
+            background-color: black;
+        }
+        </style>
+    </head>
+
+    <body >
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           
+          <ul class="nav-iten active">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a  class="navbar-brand" href="index.html">Jogar</a>  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand"  onclick="nivelDificuldade()" id='numero'>Iniciante</a>
+                <a class="navbar-brand"  href="index.html" id= 'numero2'>Intermediario</a>
+                <a class="navbar-brand"  href="index.html" id='numero3'>Avançado</a>
+          <ul>
+    
+        </nav>
+        
+
+        <div class="container" id='imgGame'>
+            <div class="row">
+                <div class='col'>
+                    <div class="d-flex justify-content-center">
+                        <img src="img/over.png" width="40%" height="40%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class='col'>
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-dark btn-lg" onclick="reiniciarJogo()" name='reiniciar'>Jogar Novamente</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

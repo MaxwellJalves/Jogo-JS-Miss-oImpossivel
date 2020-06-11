@@ -1,0 +1,67 @@
+.mosquito1{
+    width: 50px;
+    height:50px;
+}
+
+.mosquito2{
+    width: 90px;
+    height:90px;
+}
+
+.mosquito3{
+    width: 150px;
+    height:150px;
+}
+
+body{
+    background-image: url('img/cenario.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    bottom: 0px;
+   
+}
+   /*Classe criada para poder realizar a rotação da imagem no caso da scaleX positiva não precisaria adicionar 
+   pois por padrão a imagem já está definida nessa escala.
+   
+   -bottom: 0px;
+    background-repeat: no-repeat;
+    background-attachment: local;
+   */
+.ladoA{
+    transform: scaleX(1);
+}
+
+.ladoB{
+    transform: scaleX(-1);
+}
+  /*--Painel da aplicação*/
+.painel {
+    position: absolute;
+    width: 190px;
+    left: 0px;
+    padding: 10px;
+    bottom: 0px;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.vida {
+    float: left;
+}
+
+.cronometro {
+    float: left ;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*
+Direitos de imagem:
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2020%2F01%2F24%2F21%2F35%2Fhouse-4791281_960_720.png&imgrefurl=https%3A%2F%2Fpixabay.com%2Fpt%2Fvectors%2Fcasa-desenhos-animados-rio-cena-4791281%2F&tbnid=1MpMKQhq5052xM&vet=12ahUKEwih84Di1OPpAhWQAbkGHR-_DrYQMygCegUIARD2AQ..i&docid=TsLVOQrBpqg2kM&w=960&h=528&q=desenho%20de%20casas%20proximo%20a%20rio%20&ved=2ahUKEwih84Di1OPpAhWQAbkGHR-_DrYQMygCegUIARD2AQ
+
+
+
+
+*/

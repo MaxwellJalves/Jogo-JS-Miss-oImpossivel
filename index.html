@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tente checar até o 10 ;)</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css" >
+        <script src="regras.js"></script>
+    </head>
+
+    <body  onresize="capturaTamanhodaTela()">
+
+
+        <div class="painel">
+            <div class="vidas">
+                <img src="img/coracao_cheio.png" id="vida1"/>
+                <img src="img/coracao_cheio.png" id="vida2"/>
+                <img src="img/coracao_cheio.png" id="vida3"/>
+            </div>
+            <div class="cronometro"> tempo restante: ? 
+                <div id="pontuacao">Pontuação: 0  </div>
+                     
+
+            </div>
+        </div>
+        <!-- <img src="img/mosca.png" class="mosquito1"/>  tag criada para configurar o tamanho da imagem no projeto -->
+           
+        <script>
+            capturaTamanhodaTela();
+             nivelDificuldade();
+             
+        </script>
+    </body>
+</html>
